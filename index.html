@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spa Belleza Integral</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #f6f4f2;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #cfa9a3, #f1d4c9);
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.1rem;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      color: #a16f63;
+    }
+    .about {
+      background: #fff;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    .cta {
+      text-align: center;
+      background: linear-gradient(135deg, #f1d4c9, #cfa9a3);
+      color: #fff;
+      padding: 60px 20px;
+    }
+    .cta h2 {
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      background: #fff;
+      color: #a16f63;
+      padding: 15px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #f6f4f2;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Spa Belleza Integral</h1>
+  <p>Cuidado, relajación y belleza en un solo lugar</p>
+</header>
+
+<section>
+  <h2 style="text-align:center; margin-bottom:40px;">Nuestros Servicios</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Limpieza Facial Profunda</h3>
+      <p>Renueva tu piel con una limpieza facial que elimina impurezas, hidrata y devuelve luminosidad natural.</p>
+    </div>
+    <div class="card">
+      <h3>Manicure & Pedicure</h3>
+      <p>Cuidado completo de uñas, cutículas y esmaltado para manos y pies saludables y elegantes.</p>
+    </div>
+    <div class="card">
+      <h3>Masajes con Piedras Calientes</h3>
+      <p>Relajación profunda que alivia tensiones musculares y equilibra cuerpo y mente.</p>
+    </div>
+    <div class="card">
+      <h3>Masajes con Rodillo de Madera</h3>
+      <p>Técnica natural ideal para activar la circulación, reducir tensión y estimular el drenaje.</p>
+    </div>
+    <div class="card">
+      <h3>Lifting de Cejas</h3>
+      <p>Realza tu mirada con un lifting de cejas que aporta definición y efecto rejuvenecedor.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="about">
+    <h2>Sobre Nosotros</h2>
+    <p>
+      En Spa Belleza Integral nos enfocamos en brindarte una experiencia de bienestar completa.
+      Trabajamos con técnicas profesionales, productos de calidad y un ambiente cálido pensado
+      para tu descanso y cuidado personal.
+    </p>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Reserva tu hora y regálate un momento para ti</h2>
+  <a href="#" class="btn">Agendar Cita</a>
+</section>
+
+<footer>
+  <p>© 2026 Spa Belleza Integral · Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
